@@ -4,7 +4,7 @@ from bs4 import BeautifulSoup
 import datetime
 from openpyxl import load_workbook
 
-url = "https://manga.nicovideo.jp/ranking/point/daily/shonen"
+url = "https://manga.nicovideo.jp/ranking/point/weekly/shonen"
 res = requests.get(url)
 res.encoding = res.apparent_encoding
 soup = BeautifulSoup(res.text, "html.parser")
