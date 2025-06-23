@@ -2,7 +2,7 @@ name: Daily Scrape Ranking
 
 on:
   schedule:
-    - cron: '0 0 * * *'  # 毎日9時に実行
+    - cron: '0 10 * * 1'  # 毎週実行
   workflow_dispatch:
 
 jobs:
