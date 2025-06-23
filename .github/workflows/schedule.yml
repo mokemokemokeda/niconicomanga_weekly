@@ -1,4 +1,4 @@
-name: Daily Scrape Ranking
+name: Weekly Scrape Ranking
 
 on:
   schedule:
