@@ -24,7 +24,7 @@ for i, item in enumerate(soup.select(".mg_category_ranking_inner"), 1):
 
 df = pd.DataFrame(data)
 
-file_path = "ranking_results2.xlsx"
+file_path = "ranking_weekly.xlsx"
 sheet_name = datetime.datetime.now().strftime("%Y-%m-%d")
 
 try:
