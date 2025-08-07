@@ -1,6 +1,6 @@
 name: Weekly Scrape Ranking
 
-on:
+on: 
   schedule:
     - cron: '0 10 * * 1'  # 毎週実行
   workflow_dispatch:
