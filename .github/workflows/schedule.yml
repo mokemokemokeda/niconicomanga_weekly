@@ -1,5 +1,5 @@
 name: Weekly Scrape Ranking
-
+ 
 on: 
   schedule:
     - cron: '0 10 * * 1'  # 毎週実行
